@@ -7,7 +7,7 @@
 // @input Component.Camera camera             {"label":"Camera"}
 
 //@ui {"widget":"separator"}
-// @input int targetWord {"widget":"combobox", "values":[{"label":"Wow", "value":0}, {"label":"Yes", "value":1}]}
+// @input int targetWord {"widget":"combobox", "values":[{"label":"Wow", "value":0}, {"label":"Yes", "value":1}, {"label":"Dog", "value":2}]}
 
 //@ui {"widget":"separator"}
 // @input Component.Text wordDisplayText    {"label":"Word Display Text"}
@@ -61,6 +61,15 @@ var WORD_TARGETS = [
         highMsg:  "Relax — close your mouth slightly",
         goodMsg:  "Good open mouth shape!",
         tip:      "Jaw drops, mouth opens relaxed and wide"
+    },
+    {
+        label:    "dog",
+        minRatio: 0.25,
+        maxRatio: 0.60,
+        lowMsg:   "Drop your jaw more for the AW sound",
+        highMsg:  "Relax your jaw slightly",
+        goodMsg:  "Good shape — now finish with G!",
+        tip:      "D (slight open) -> AW (drop jaw) -> G (close)"
     }
 ];
 

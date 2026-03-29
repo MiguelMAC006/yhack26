@@ -1,0 +1,55 @@
+- !<ObjectPrefab/ce3be429-c5f1-4c8a-8751-b6e25a0db61c>
+  PackagePath: ""
+  objects:
+    - !<own> 17f0bbe4-4ecf-43d0-b581-f6197a742c72
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/17f0bbe4-4ecf-43d0-b581-f6197a742c72>
+  PrefabRemaps:
+    - 17f0bbe4-4ecf-43d0-b581-f6197a742c72: 17f0bbe4-4ecf-43d0-4a7e-09e6858bd38d
+    - 7557071b-3c93-4d0b-9cf5-fbb488be3405: 7557071b-3c93-4d0b-630a-044b7741cbfa
+  Name: MouthTracker
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7557071b-3c93-4d0b-9cf5-fbb488be3405
+- !<ScriptComponent/7557071b-3c93-4d0b-9cf5-fbb488be3405>
+  PrefabRemaps:
+    []
+  Name: MouthTracker
+  Enabled: true
+  ScriptAsset: !<reference> cc4fcea4-fd6b-4a9a-907a-15b4235c0d55
+  ScriptInputsDefault:
+    dMin: true
+    dMax: true
+    awMin: true
+    awMax: true
+    gMin: true
+    gMax: true
+    attemptTimeout: true
+    requiredRise: true
+    debugPrint: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      headBinding: !<reference.Head> b91cb9df-8f05-4a63-82b4-d5871e609e00
+      dMin: 0.150000
+      dMax: 0.300000
+      awMin: 0.250000
+      awMax: 0.600000
+      gMin: 0.150000
+      gMax: 0.300000
+      attemptTimeout: 1.500000
+      requiredRise: 0.080000
+      debugPrint: true
+  ScriptTypes:
+    "":
+      {}
