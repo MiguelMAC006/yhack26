@@ -584,8 +584,8 @@
     Scale: {x: 10.000000, y: 10.000000, z: 10.000000}
     HasSegmentScaleCompensation: false
   Children:
-    - !<own> c62e7043-e4bb-4e70-8b16-1bb42df6e1ec
     - !<own> 7ce3ab49-0e09-414d-83ae-a8258291985d
+    - !<own> c62e7043-e4bb-4e70-8b16-1bb42df6e1ec
   Components:
     - !<own> d177c6e6-d987-4d6b-b7b9-00feb9b8e8f4
 - !<Canvas/35f26406-2d86-44ac-9f38-97f286feb22a>
@@ -1877,6 +1877,7 @@
       attemptTimeout: 1.500000
       requiredRise: 0.080000
       debugPrint: true
+      coachText: !<reference.Text> 992cc25a-98ad-4bfd-9a07-eb453742d5c1
   ScriptTypes:
     "":
       {}
