@@ -45,6 +45,7 @@
     attemptTimeout: true
     requiredRise: true
     debugPrint: true
+    coachText: true
   ScriptTypesDefault:
     {}
   ScriptInputs:
@@ -59,6 +60,7 @@
       attemptTimeout: 1.500000
       requiredRise: 0.080000
       debugPrint: true
+      coachText: !<reference.Text> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     "":
       {}
