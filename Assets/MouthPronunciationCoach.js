@@ -64,8 +64,8 @@ var WORD_TARGETS = [
     },
     {
         label:    "dog",
-        minRatio: 0.25,
-        maxRatio: 0.60,
+        minRatio: 0.55,
+        maxRatio: 0.85,
         lowMsg:   "Drop your jaw more for the AW sound",
         highMsg:  "Relax your jaw slightly",
         goodMsg:  "Good shape — now finish with G!",
