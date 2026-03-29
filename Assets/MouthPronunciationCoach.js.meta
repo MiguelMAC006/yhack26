@@ -1,0 +1,62 @@
+- !<AssetImportMetadata/26036e17-4d2d-4a5b-be7a-1a4dae6d87be>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 5831e471-4d8d-4146-941f-9f1e62762bb3
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 5831e471-4d8d-4146-941f-9f1e62762bb3
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> c7e05bac-6524-4ab3-b92d-4ad506fcf217
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/c7e05bac-6524-4ab3-b92d-4ad506fcf217>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: c059cd2f-828f-4e0d-b65d-1da8fccdcad7
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    camera: false
+    feedbackText: false
+    headBinding: false
+    indicatorOffsetY: false
+    leftCornerIndicator: false
+    lowerLipIndicator: false
+    printDebug: false
+    rightCornerIndicator: false
+    targetWord: false
+    upperLipIndicator: false
+    wordDisplayText: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - headBinding: !<reference.Head> 00000000-0000-0000-0000-000000000000
+      camera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      targetWord: 0
+      wordDisplayText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      feedbackText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      upperLipIndicator: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      lowerLipIndicator: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      leftCornerIndicator: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      rightCornerIndicator: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      indicatorOffsetY: 1.500000
+      printDebug: false
+  ScriptTypes:
+    -
+      {}

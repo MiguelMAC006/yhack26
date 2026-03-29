@@ -1,0 +1,74 @@
+- !<AssetImportMetadata/f5ed8d22-4500-d1cc-767d-118729a2c656>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 072a6d14-2f47-4e9e-8363-fcc70a88766a
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 072a6d14-2f47-4e9e-8363-fcc70a88766a
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    AssetLibraryId: BikZoIuX32CR8R02s70XW
+  AssetDataMap:
+    JavaScriptAsset: !<own> 97b97fb6-d2ae-40ca-9287-b1ca89cfea42
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/97b97fb6-d2ae-40ca-9287-b1ca89cfea42>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: f365f5ca-fcc6-8ffc-a3c1-b7ed26d81a03
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    advanced: false
+    audioSource: false
+    audioSpectrogramScript: false
+    classText: false
+    customTriggerPrefix: false
+    debugImage: false
+    deltaTime: false
+    labels: false
+    loudThreshold: false
+    model: false
+    noiseThreshold: false
+    probText: false
+    processingDelay: false
+    threshold: false
+    type: false
+    useBehavior: false
+    window: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - model: !<reference.MLAsset> 00000000-0000-0000-0000-000000000000
+      labels: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      audioSource: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      threshold: 0.950000
+      useBehavior: false
+      customTriggerPrefix: KEYWORD_
+      advanced: true
+      audioSpectrogramScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      type: 0
+      loudThreshold: !<float> 2000.000000
+      noiseThreshold: !<float> 400.000000
+      window: !<Vec2> {x: 10.000000, y: 64.000000}
+      processingDelay: 16
+      deltaTime: !<float> 8.000000
+      classText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      probText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      debugImage: !<reference.Image> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

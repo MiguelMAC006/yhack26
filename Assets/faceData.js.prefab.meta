@@ -1,0 +1,52 @@
+- !<AssetImportMetadata/64c55f9b-c062-46a8-bd41-467db9d9e166>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 86831063-5010-4e0b-b8b6-1f755c5f355e
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 86831063-5010-4e0b-b8b6-1f755c5f355e
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 653d2ead-ceea-4bf9-8e14-fe706bb88a54
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptComponent/111e25fd-cd85-4ddc-79b5-8a5d69799984>
+  PrefabRemaps:
+    []
+  Name: Untitled JavaScript
+  Enabled: true
+  ScriptAsset: !<reference> 291499ee-34ea-467b-a035-21eea41b66ec
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
+- !<ObjectPrefabAssetData/653d2ead-ceea-4bf9-8e14-fe706bb88a54>
+  Prototype: !<ObjectOwner/19d559d6-a243-415d-a15e-2e59d3f5e023>
+    PackagePath: ""
+    objects:
+      - !<own> a2ffe7e6-2772-4c2d-7f2c-d8c20a4bda51
+- !<SceneObject/a2ffe7e6-2772-4c2d-7f2c-d8c20a4bda51>
+  PrefabRemaps:
+    []
+  Name: faceData.js
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 111e25fd-cd85-4ddc-79b5-8a5d69799984

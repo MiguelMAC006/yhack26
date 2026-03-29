@@ -1,0 +1,60 @@
+- !<AssetImportMetadata/9e2ecbfd-9393-6d87-7f73-49c946408fa8>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> c5471bd3-022e-491d-98cb-93ad09ca03a6
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> c5471bd3-022e-491d-98cb-93ad09ca03a6
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    AssetLibraryId: BikZoIuX32CR8R02s70XW
+  AssetDataMap:
+    JavaScriptAsset: !<own> 5181707d-d225-4d3a-a5f9-f7bb0a09f464
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/5181707d-d225-4d3a-a5f9-f7bb0a09f464>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: f9486f05-4374-ef53-dde3-159df862ea16
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    advanced: false
+    fftSize: false
+    frameSize: false
+    hopSize: false
+    maxFreq: false
+    minFreq: false
+    numMel: false
+    proxyTexture: false
+    sampleRate: false
+    size: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - advanced: false
+      frameSize: 512
+      hopSize: 128
+      fftSize: 2048
+      numMel: 128
+      minFreq: !<float> 0.000000
+      maxFreq: !<float> 8000.000000
+      sampleRate: 44100
+      size: !<Vec2> {x: 128.000000, y: 128.000000}
+      proxyTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

@@ -1,0 +1,53 @@
+- !<AssetImportMetadata/16d4a88f-5cd5-379e-ccbf-ca6ae423a61f>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 7f633cc3-2463-4fb0-b15e-8221b89cbf0d
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 7f633cc3-2463-4fb0-b15e-8221b89cbf0d
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 5c5cfb93-8a71-4863-b1d0-b39817f1b142
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/5c5cfb93-8a71-4863-b1d0-b39817f1b142>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: c2dbfc29-7f10-9ef3-efd8-c6577e9584b2
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    headBinding: false
+    placementMode: false
+    points: false
+    pointsMode: false
+    positionOffset: false
+    predefinedPoints: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - placementMode: 0
+      pointsMode: 0
+      points: !<int[]>
+        - 0
+      predefinedPoints: 0
+      positionOffset: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      headBinding: !<reference.Head> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
