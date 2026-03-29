@@ -39,6 +39,7 @@
     noiseThreshold: false
     probText: false
     processingDelay: false
+    scoreText: false
     threshold: false
     type: false
     useBehavior: false
@@ -52,7 +53,8 @@
   Attachments:
     []
   DefaultScriptInputs:
-    - model: !<reference.MLAsset> 00000000-0000-0000-0000-000000000000
+    - scoreText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      model: !<reference.MLAsset> 00000000-0000-0000-0000-000000000000
       labels: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       audioSource: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
       threshold: 0.950000
