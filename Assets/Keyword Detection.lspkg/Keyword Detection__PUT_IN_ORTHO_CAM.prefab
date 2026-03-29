@@ -819,6 +819,7 @@
   Enabled: true
   ScriptAsset: !<reference> 072a6d14-2f47-4e9e-8363-fcc70a88766a
   ScriptInputsDefault:
+    scoreText: true
     useBehavior: true
     customTriggerPrefix: true
     advanced: true
@@ -831,6 +832,7 @@
     {}
   ScriptInputs:
     "":
+      scoreText: !<reference.Text> 00000000-0000-0000-0000-000000000000
       model: !<reference.MLAsset> 542ed8f3-8e67-4af4-8c61-c9118d9ed1a4
       labels: !<reference.ScriptComponent> b47b3983-e4e8-42b1-ac4d-57baa2891339
       audioSource: !<reference.AudioTrackAsset> fc749315-75f6-4c27-82d6-bbd4fab8f448

@@ -10,6 +10,7 @@
     - !<own> e710f3ac-be0a-46fa-b27d-36df04b8b923
     - !<own> a913e64e-5c32-4e44-a177-29abbc96cecb
     - !<own> 0103ebad-21a3-4f93-b0c9-cca085ba961a
+    - !<own> be0fc747-9707-4309-aaf6-8844d965f75d
   layers: !<Layers/267ee9a7-aff2-4f9d-9a49-f71214747d03>
     userLayers:
       []
@@ -783,6 +784,89 @@
     bottom: 0.000000
     right: 0.000000
     top: 0.500000
+- !<Text/5740ed51-dd29-4cd9-b00f-7d9218c89818>
+  PrefabRemaps:
+    []
+  Name: Text
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Text: "score: "
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 30.000000
+  Font: !<reference> 00000000-0000-0000-0000-000000000000
+  FontWeight: 400
+  Italic: false
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  Fill: !<TextFill>
+    Mode: Solid
+    Color: {x: 0.874510, y: 0.882322, z: 0.854978, w: 1.000000}
+    Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    TileCount: 5.000000
+    TileZone: Rect
+    TextureStretch: FitWidth
+  BlendMode: PremultipliedAlpha
+  Outline: !<OutlineSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Size: 0.250000
+  Dropshadow: !<DropshadowSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    OffsetX: 0.250000
+    OffsetY: 0.250000
+  Background: !<BackgroundSettings>
+    Enabled: true
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Margins:
+      left: 0.000000
+      bottom: 0.000000
+      right: 0.000000
+      top: 0.000000
+    CornerRadius: 0.000000
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  DepthTest: false
+  TwoSided: false
 - !<ScreenTransform/57d3e2f7-f011-4b1c-8cdf-e529725046f8>
   PrefabRemaps:
     []
@@ -1670,6 +1754,21 @@
     - !<own> 23de596d-3a13-46b3-a27d-ebd9c94e0299
   Components:
     - !<own> cedce5e0-c018-448e-9778-13c1241b5852
+- !<SceneObject/be0fc747-9707-4309-aaf6-8844d965f75d>
+  PrefabRemaps:
+    []
+  Name: Score
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -15.000000, y: 5.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 5.000000, y: 5.000000, z: 0.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 5740ed51-dd29-4cd9-b00f-7d9218c89818
 - !<RenderMeshVisual/c206d0d6-7871-4756-919d-7ce0022ec353>
   PrefabRemaps:
     []
@@ -2054,6 +2153,7 @@
     {}
   ScriptInputs:
     "":
+      scoreText: !<reference.Text> 5740ed51-dd29-4cd9-b00f-7d9218c89818
       model: !<reference.MLAsset> 542ed8f3-8e67-4af4-8c61-c9118d9ed1a4
       labels: !<reference.ScriptComponent> 94486b6e-f5cb-471c-b918-07348e91e4e6
       audioSource: !<reference.AudioTrackAsset> 9c46f275-0c86-4256-8dcd-f4e6450a2ad5
