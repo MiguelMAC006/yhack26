@@ -11,6 +11,9 @@
 //@input float requiredRise = 0.08
 //@input bool debugPrint = true
 
+//@ui {"widget":"separator"}
+//@input Component.Text coachText {"label":"Coach Text"}
+
 print("DOG PATTERN DETECTOR LOADED");
 
 var LEFT_MOUTH = 48;
@@ -28,6 +31,19 @@ var dRatio = -1;
 var awRatio = -1;
 var lastDetectionTime = -10;
 var detectionCooldown = 1.0;
+var detected = false;
+
+var TIPS = [
+    "D: press tongue to roof, slight open",
+    "AW: drop your jaw wide open",
+    "G: close mouth, tongue to back"
+];
+
+function setCoachText(msg) {
+    if (script.coachText) {
+        script.coachText.text = msg;
+    }
+}
 
 function dist2D(a, b) {
     var dx = a.x - b.x;
@@ -60,7 +76,13 @@ function timedOut() {
     return (getTime() - attemptStartTime) > script.attemptTimeout;
 }
 
+setCoachText(TIPS[STATE_WAITING_FOR_D]);
+
 script.createEvent("UpdateEvent").bind(function () {
+    if (detected) {
+        return;
+    }
+
     if (!script.headBinding) {
         return;
     }
@@ -98,6 +120,7 @@ script.createEvent("UpdateEvent").bind(function () {
     if (currentState !== STATE_WAITING_FOR_D && timedOut()) {
         print("DOG ATTEMPT TIMED OUT");
         resetDetector();
+        setCoachText(TIPS[STATE_WAITING_FOR_D]);
         return;
     }
 
@@ -110,6 +133,7 @@ script.createEvent("UpdateEvent").bind(function () {
             dRatio = openRatio;
             startAttempt();
             currentState = STATE_WAITING_FOR_AW;
+            setCoachText(TIPS[STATE_WAITING_FOR_AW]);
             print("Detected D shape at " + dRatio.toFixed(3));
         }
         return;
@@ -119,6 +143,7 @@ script.createEvent("UpdateEvent").bind(function () {
         if (inRange(openRatio, script.awMin, script.awMax) && (openRatio - dRatio) >= script.requiredRise) {
             awRatio = openRatio;
             currentState = STATE_WAITING_FOR_G;
+            setCoachText(TIPS[STATE_WAITING_FOR_G]);
             print("Detected AW shape at " + awRatio.toFixed(3));
         }
         return;
@@ -126,8 +151,10 @@ script.createEvent("UpdateEvent").bind(function () {
 
     if (currentState === STATE_WAITING_FOR_G) {
         if (inRange(openRatio, script.gMin, script.gMax) && openRatio < awRatio) {
-            print("DOG SOUND DETECTED");
             lastDetectionTime = getTime();
+            detected = true;
+            setCoachText("You said DOG!");
+            print("DOG SOUND DETECTED");
             resetDetector();
         }
         return;

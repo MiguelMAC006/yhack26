@@ -1,0 +1,63 @@
+- !<AssetImportMetadata/df629775-a75d-4770-bb15-62d5f3afd095>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 35cec188-a137-43e7-b192-9b0bbc04a229
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 35cec188-a137-43e7-b192-9b0bbc04a229
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 510395d2-dd42-42a1-ad96-26fa3a22f338
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptComponent/3ae6713e-d6bd-4cce-7123-27bf3579b467>
+  PrefabRemaps:
+    []
+  Name: MouthPronunciationCoach
+  Enabled: true
+  ScriptAsset: !<reference> 5831e471-4d8d-4146-941f-9f1e62762bb3
+  ScriptInputsDefault:
+    indicatorOffsetY: true
+    printDebug: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      headBinding: !<reference.Head> b91cb9df-8f05-4a63-82b4-d5871e609e00
+      camera: !<reference.Camera> 00000000-0000-0065-0000-000000000065
+      targetWord: 2
+      wordDisplayText: !<reference.Text> ad217bd1-7dab-4357-8213-874094b13be8
+      feedbackText: !<reference.Text> 992cc25a-98ad-4bfd-9a07-eb453742d5c1
+      upperLipIndicator: !<reference.SceneObject> 0bd5aeac-c079-40b2-918d-a7bb79dd2d2b
+      lowerLipIndicator: !<reference.SceneObject> e710f3ac-be0a-46fa-b27d-36df04b8b923
+      leftCornerIndicator: !<reference.SceneObject> a913e64e-5c32-4e44-a177-29abbc96cecb
+      rightCornerIndicator: !<reference.SceneObject> 0103ebad-21a3-4f93-b0c9-cca085ba961a
+      indicatorOffsetY: 1.500000
+      printDebug: false
+  ScriptTypes:
+    "":
+      {}
+- !<ObjectPrefabAssetData/510395d2-dd42-42a1-ad96-26fa3a22f338>
+  Prototype: !<ObjectOwner/706e7b26-b5a3-48ef-81ed-a59f9087e4fb>
+    PackagePath: ""
+    objects:
+      - !<own> 90b2ef91-83ef-4040-50b3-10836c470f99
+- !<SceneObject/90b2ef91-83ef-4040-50b3-10836c470f99>
+  PrefabRemaps:
+    []
+  Name: MouthPronunciationCoach
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 3ae6713e-d6bd-4cce-7123-27bf3579b467
