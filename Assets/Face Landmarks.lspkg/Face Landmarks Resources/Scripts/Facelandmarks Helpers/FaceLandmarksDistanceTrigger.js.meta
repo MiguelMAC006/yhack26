@@ -1,0 +1,70 @@
+- !<AssetImportMetadata/0dfa33d5-fa76-8cc7-3e38-45bed346ae45>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 5ed68541-b6b1-4b25-a5eb-50a44b4e4706
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 5ed68541-b6b1-4b25-a5eb-50a44b4e4706
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 8990d6f9-ba78-4d68-a5da-cc79c4c1f06f
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/8990d6f9-ba78-4d68-a5da-cc79c4c1f06f>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 38338af0-d4d5-b10b-a730-595ae241e54e
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    customTrigger: false
+    firstPoint: false
+    firstPredefinedPoints: false
+    headBinding: false
+    maxTrigger: false
+    maxValue: false
+    minTrigger: false
+    minValue: false
+    pointsMode: false
+    printDistance: false
+    secondPoint: false
+    secondPredefinedPoints: false
+    smoothing: false
+    smoothingAmount: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - pointsMode: 0
+      firstPoint: !<int[]>
+        - 0
+      secondPoint: !<int[]>
+        - 0
+      firstPredefinedPoints: 0
+      secondPredefinedPoints: 0
+      minValue: !<float> 0.000000
+      maxValue: !<float> 0.000000
+      smoothing: false
+      smoothingAmount: !<float> 0.000000
+      printDistance: false
+      customTrigger: false
+      minTrigger: minTrigger
+      maxTrigger: maxTrigger
+      headBinding: !<reference.Head> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

@@ -1,0 +1,16 @@
+- !<AssetImportMetadata/238efb64-8b0f-4671-8d13-728727eb02ec>
+  ImportedAssetIds:
+    FaceTrackingScope: !<reference> 281a4563-ef1e-4df6-a6e6-b66f5341bc06
+  ImporterName: FaceTrackingScopeImporter
+  PrimaryAsset: !<reference> 281a4563-ef1e-4df6-a6e6-b66f5341bc06
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000

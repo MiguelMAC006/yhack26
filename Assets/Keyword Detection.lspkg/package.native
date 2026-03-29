@@ -1,0 +1,39 @@
+- !<NativePackageDescriptor/b32f7448-fd30-4ed9-8d2d-646eb9602812>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 19
+    patch: 2
+    build: 26031623
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: |-
+    Allows to detect certain keywords in the audio input and trigger effects when they are detected. The package generates melspectrogram image and predicts the probability of keywords with Machine Learning model.
+    https://docs.snap.com/lens-studio/essential-skills/audio/audio-templates/keyword-detection
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 92
+  ExportUid: 92d164e9-bd5e-4872-a037-b7586f8c8677
+  ComponentUid: c4cf34ea-fc39-43b2-98de-df9a27f14762
+  PackagePolicy: CanBeUnpackedTransparent
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: ""
+    AssetId: ""
+    Hash: ""
+    Version:
+      major: 0
+      minor: 0
+      patch: 0
+      build: 0

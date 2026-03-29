@@ -1,0 +1,37 @@
+- !<NativePackageDescriptor/0dce65b1-8604-4800-8b56-e7447aeb56c2>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 19
+    patch: 2
+    build: 26031623
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: "3D Verdant Environment Pack Immerse yourself in the beauty of nature with our 3D Verdant Environment Pack. Create captivating virtual worlds brimming with lush landscapes and vibrant flora. Whether you're designing a tranquil retreat or an untamed wilderness, this pack offers a versatile collection of assets that will breathe life into your scenes, allowing you to craft rich, immersive environments that transport users to the heart of nature's splendor."
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 92
+  ExportUid: 957b8f25-1896-4139-885f-d360ceaede85
+  ComponentUid: 483d4603-02ba-43e0-a084-f0a1feced9a4
+  PackagePolicy: CanBeUnpackedTransparent
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: ""
+    AssetId: ""
+    Hash: ""
+    Version:
+      major: 0
+      minor: 0
+      patch: 0
+      build: 0

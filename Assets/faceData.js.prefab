@@ -1,0 +1,38 @@
+- !<ObjectPrefab/86831063-5010-4e0b-b8b6-1f755c5f355e>
+  PackagePath: ""
+  objects:
+    - !<own> a2ffe7e6-2772-4c2d-80d3-273df5b425ae
+  LazyLoading: false
+  RetainAssets: true
+- !<ScriptComponent/111e25fd-cd85-4ddc-864a-75a29686667b>
+  PrefabRemaps:
+    []
+  Name: Untitled JavaScript
+  Enabled: true
+  ScriptAsset: !<reference> 291499ee-34ea-467b-a035-21eea41b66ec
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/a2ffe7e6-2772-4c2d-80d3-273df5b425ae>
+  PrefabRemaps:
+    - 111e25fd-cd85-4ddc-864a-75a29686667b: 111e25fd-cd85-4ddc-79b5-8a5d69799984
+    - a2ffe7e6-2772-4c2d-80d3-273df5b425ae: a2ffe7e6-2772-4c2d-7f2c-d8c20a4bda51
+  Name: faceData.js
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 111e25fd-cd85-4ddc-864a-75a29686667b
